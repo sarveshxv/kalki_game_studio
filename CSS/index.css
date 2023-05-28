@@ -1,0 +1,163 @@
+.welcome-index{
+    height: auto;
+    display: flex;
+    align-items: start;
+    padding-top: 12%;
+}
+.welcome-index h1{
+    font-size: 6rem;
+    font-weight: 700;
+    font-stretch: wider;
+}
+.welcome-index h1 span{
+    color: #ffb545;
+}
+.welcome-para{
+    display: flex;
+    font-size: 1.4em;
+}
+
+
+.child-section-container{
+    padding-top: 460px;
+    margin-bottom: 150px;
+}
+
+.child-section-h h2{
+    color: #ffb545;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.child-section-h p{
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size:  1.5em;
+    word-wrap: normal;
+    text-align: justify;
+    margin: 30px 0;
+}
+.child-section-img{
+    width: 100%;
+
+}
+
+.body-section{
+    padding: 150px 20px;
+
+}
+.body-section p{
+    font-size: 1.3em;
+    padding-bottom: 50px;
+}
+.body-section h1{
+    font-size: 4rem;
+
+}
+.body-section h5{
+    margin-left: -40px;
+    padding-bottom: 50px;
+    color: #ffb545;
+    font-weight: 600;
+
+}
+.portfolio-container{
+    padding: 150px 0;
+}
+.portfolio-header{
+    border-bottom: 0.1px solid #ffb545;
+    padding: 26px 0;
+}
+.portfolio-header h2{
+    color: #ffb545;
+}
+
+.portfolio-header p{
+    line-height: 1.5;
+    padding-top: 26px;
+}
+.see-more{
+    padding: 100px 0;
+}
+.see-more span{
+    color: #ffb545;
+}
+
+.index-protfolio-card-img img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    margin-top: 20px;
+}
+.footer-icons{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.footer-icons img{
+    width: auto;
+    height: 80px;
+}
+.footer-header .row{
+    margin-top: 30px;
+}
+
+.footer-body{
+    padding: 200px 40px;
+}
+.footer-body h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ffb545;
+    margin-bottom: 80px;
+}
+.footer-body h6{
+    font-size: 1.4rem;
+}
+.footer-body p{
+    color: grey;
+}
+@media (max-width: 1200px){
+    .welcome-index{
+        padding-top: 26%;
+    }
+    .welcome-index h1{
+        font-size: 6rem;
+
+    }
+
+}
+@media (max-width: 768px){
+    .welcome-index{
+        padding-top: 46%;
+    }
+    .welcome-index h1{
+        font-size: 3rem;
+
+    }
+    .welcome-para{
+        display: flex;
+        font-size: 1.1em;
+    }
+    .child-section-img{
+        width: 80%;
+        padding: 20px 0;
+    }
+    .footer-icons{
+    display: flex;
+    flex-direction: column;
+
+    }
+    .footer-icons img{
+        align-self: center;
+        height: 60px;
+        margin: 20px 0;
+    }
+}
+@media (max-width: 576px){
+    .child-section-h p{
+        font-size:  1.4em;
+        font-weight: 200;
+    }
+}
