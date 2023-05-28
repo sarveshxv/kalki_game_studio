@@ -84,7 +84,6 @@ a{
 section.menu-bottom-nav{
     height: 100px;
     width: 200px;
-    border: #ffb545 1px solid;
     display: flex;
     position: fixed;
     bottom: 0;
