@@ -82,15 +82,15 @@ a{
 
 }
 section.menu-bottom-nav{
-    height: 100px;
+    height: 80px;
     width: 200px;
     display: flex;
     position: fixed;
-    bottom: 0;
+    top: 0;
     flex-direction: row;
     justify-content: space-around;
     align-items: end;
-    padding-bottom: 40px;
+    padding-top: auto;
 }
 .home-menu-bottom-nav{display: none};
 
