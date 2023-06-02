@@ -1,0 +1,11 @@
+.top-main-img{
+    background-color: black;
+    background-image: url(../STATIC/services/keyboard-rgb.jpg);
+    padding: 40% 0;
+    margin-top: -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    visibility: inherit;
+}
