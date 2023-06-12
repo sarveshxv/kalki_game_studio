@@ -20,9 +20,35 @@ h1{
     width: 60%;
 }
 
+.porfolio-images {
+    padding: 0;
+    margin: 0;
+}
+
 .porfolio-images img{
     height: 300px;
     width: 400px;
     object-fit: cover;
     margin-bottom: 6px;
+}
+@media (max-width: 992px) {
+    .top-body-header{
+        padding-bottom: 30vh;
+    }
+    .top-body-header .sub-text{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .top-body-header{
+        padding-bottom: 30vh;
+    }
+}
+@media (max-width: 576px) {
+    .porfolio-images img{
+        height: 300px;
+        width: 100vw;
+        object-fit: cover;
+
+    }
 }
