@@ -5,6 +5,11 @@ body{
 }
 a{
     color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffb545;
+    text-decoration: none;
 }
 h1{
     font-size: 3rem;
@@ -35,7 +40,7 @@ p{
 .top-body-header{
     margin-top: -150px;
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 20vh;
     min-height: 400px;
     height: 100vh;
     display: flex;
@@ -64,19 +69,47 @@ p{
 }
 
 
+.services-images-row .col img{
+    height: 50vh;
+    width: 40vh;
+    object-fit: cover;
+    padding: 0 12px 12px 0;
+}
+.more-carousel-images-btn .btn {
+    color: white;
+    margin-top: 18px;
+    transition-property: border color;
+    transition-duration: 0.2s;
+    transition: font-size 0.3s;
+}
+.more-carousel-images-btn .btn span{
+    color: #ffb545;
 
+}
 
-
+.more-carousel-images-btn .btn:hover {
+    color: #ffb545;
+    border-bottom: 2px solid white;    
+    padding-bottom: -44px;
+    font-size: large;
+}
 
 
 
 @media (max-width: 992px) {
+    .top-body-header{
+        padding-bottom: 30vh;
+    }
     .top-body-header .sub-text{
         width: 100%;
     }
 }
 @media (max-width: 768px) {
     .top-body-header{
-        height: 70vh;
+        padding-bottom: 30vh;
+    }
+    .services-images-row .col img{
+    height: 50vh;
+    width: 60vh;
     }
 }
