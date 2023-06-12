@@ -1,3 +1,29 @@
 h1 {
+    margin: 20px 0 0 0;
+    font-size: 4rem;
     color: #ffb545;
+}
+h2{
+    font-size: 3rem;
+}
+.left-column{
+    display: flex;
+    min-height: 60vh;
+    align-items: center;
+}
+
+.right-column{
+    display: flex;
+    justify-content: center;
+}
+.right-column img{
+    align-self: center;
+    width: 30vw;
+    max-width: 300px;
+}
+
+@media (max-width: 768px){
+    .right-column img{
+    margin: 80px 0 160px 0;
+}
 }

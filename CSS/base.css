@@ -6,6 +6,10 @@ body{
 
 a{
     color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffb545;
 }
 .hide{
     visibility: hidden;
@@ -79,11 +83,22 @@ a{
     bottom: 10px;
     height: 300px;
     width: 40px;
-
+    
+}
+.side-nav .sidenav-icon{
+    margin: 20px 0;
+}
+.side-nav .art-station-sidenav{
+    height: 16px;
+    width: 16px;
+}
+.side-nav .art-station-sidenav img{
+    width: 100%;
+    height: 100%;
 }
 section.menu-bottom-nav{
     height: 80px;
-    width: 200px;
+    width: auto;
     display: flex;
     position: fixed;
     top: 0;
@@ -92,7 +107,23 @@ section.menu-bottom-nav{
     align-items: end;
     padding-top: auto;
 }
+section.menu-bottom-nav .bottomnav-icon{
+    margin: 0 0 0 36px;
+}
+
+
+.div-menu-nav-art-station-icon{
+    height: 24px;
+    width: 24px;
+
+}
+.div-menu-nav-art-station-icon img{
+    width: 100%;
+    height: 100%;
+}
+
 .home-menu-bottom-nav{display: none};
+
 
 @media (max-width: 992px) {
     .xnavbar .nav-logo{
@@ -117,7 +148,7 @@ section.menu-bottom-nav{
     }
     .home-menu-bottom-nav{
         height: 40px;
-        width: 100px;
+        width: 200px;
         display: flex;
         position: fixed;
         bottom: 0;
@@ -129,6 +160,14 @@ section.menu-bottom-nav{
         background-color: rgba(255, 181, 69, 0.4);
         border-radius: 10px 10px 0 0;
 
+    }
+    .home-menu-bottom-nav .bottomnav-icon{
+        height: 25px;
+        width: 25px;
+    }
+    .art-station-bottomnav img {
+        height: 100%;
+        width: 100%;
     }
     
 }
