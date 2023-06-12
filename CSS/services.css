@@ -109,8 +109,13 @@ p{
         padding-bottom: 30vh;
     }
     .services-images-row .col img{
-    height: 50vh;
-    width: auto;
-    max-width: 450px;
+        height: 50vh;
+        width: 550px;
+        object-fit: cover;
+    }
+}
+@media (max-width: 576px) {
+    .services-images-row .col img{
+        object-fit: cover;
     }
 }
