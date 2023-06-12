@@ -110,6 +110,7 @@ p{
     }
     .services-images-row .col img{
     height: 50vh;
-    width: 60vh;
+    width: auto;
+    max-width: 450px;
     }
 }
