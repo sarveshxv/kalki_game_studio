@@ -137,6 +137,9 @@ section.menu-bottom-nav .bottomnav-icon{
         display: none;
 
     }
+    .menu-bottom-nav .bottomnav-icon{
+        display: none;
+    }
     .bottom-home-nav-container{
         display: flex;
         position: fixed;
