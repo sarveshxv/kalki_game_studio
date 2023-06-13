@@ -15,15 +15,18 @@ h2{
 .right-column{
     display: flex;
     justify-content: center;
+    max-width: 500px;
 }
 .right-column img{
     align-self: center;
-    width: 30vw;
-    max-width: 300px;
+    width: 40vw;
 }
 
 @media (max-width: 768px){
     .right-column img{
-    margin: 80px 0 160px 0;
+    width: 100vw;
+}
+.right-column{
+    height: 100vh;
 }
 }

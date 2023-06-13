@@ -117,5 +117,6 @@ p{
 @media (max-width: 576px) {
     .services-images-row .col img{
         object-fit: cover;
+        width: 100vw;
     }
 }
