@@ -1,5 +1,16 @@
-
+.main-cont-body-img{
+    background-color: black;
+    background-image: url(../STATIC/index/Home_Page_Screen.png);
+    padding: 150px 0;
+    margin-top: -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+    visibility: inherit;
+}
 .main-cont{
+
     height: auto;
     padding-top: 100px;
 }
@@ -18,7 +29,7 @@
 
 
 .child-section-container{
-    padding-top: 460px;
+    padding-top: 150px;
     margin-bottom: 150px;
 }
 
@@ -58,8 +69,28 @@
     padding-bottom: 50px;
     color: #ffb545;
     font-weight: 600;
-
 }
+
+
+
+
+.top-body-header{
+    padding: 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
 .portfolio-container{
     padding: 150px 0 0 0;
 }

@@ -1,0 +1,12 @@
+(PENDING) 1. Font size of descriptions(about us, services, portfolio etc.)in all the pages should be the same.
+    		It will be small in size for descriptions. Check the figma design for font size and its boldness. .
+(Done) 2. Add 'our services' page on home screen above the portfolio.
+(Will Take Time) 3. There will be two images slideshow in 'our sevices' page.
+(Done) 4. Add three shared images according to the figma design.
+(DONE) 	  5. Media icons(artstation,linkedin,instagram) will be in center of the page.
+
+Figma Link:
+https://www.figma.com/proto/LbkxZn2RdqoQmjADkXlKs4/Kalki-Game-Studio-Web?node-id=180-328&starting-point-node-id=180%3A425&t=y7aiJTJVrxm5bPEc-1
+
+"Ignore that 50+ section on the home screen in figma"
+

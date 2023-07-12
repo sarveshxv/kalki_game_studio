@@ -80,8 +80,8 @@ a:hover{
     position: fixed;
     flex-direction: column;
     right: 0;
-    bottom: 10px;
-    height: 300px;
+    bottom: 0;
+    height: calc(50vh + 80px);
     width: 40px;
     
 }
